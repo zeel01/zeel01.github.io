@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="zeel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#222222;}
+	.st1{fill:none;stroke:#B1C9E2;stroke-width:4;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:url(#Bottom_Branch_1_);stroke-width:4;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:url(#Right_Branch_1_);stroke-width:4;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:url(#Top_Branch_1_);stroke-width:4;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:url(#Left_Branch_1_);stroke-width:4;stroke-miterlimit:10;}
+</style>
+<rect class="st0" width="200" height="200"/>
+<g>
+	<rect id="Box" x="78" y="80" class="st1" width="44" height="40"/>
+	
+		<linearGradient id="Bottom_Branch_1_" gradientUnits="userSpaceOnUse" x1="122" y1="82" x2="122" y2="20" gradientTransform="matrix(1 0 0 -1 0 202)">
+		<stop  offset="0" style="stop-color:#B1C9E2"/>
+		<stop  offset="0.5" style="stop-color:#4277A5"/>
+		<stop  offset="1" style="stop-color:#002E4F"/>
+	</linearGradient>
+	<line id="Bottom_Branch" class="st2" x1="122" y1="120" x2="122" y2="182"/>
+	
+		<linearGradient id="Right_Branch_1_" gradientUnits="userSpaceOnUse" x1="122" y1="82" x2="180" y2="82" gradientTransform="matrix(1 0 0 -1 0 202)">
+		<stop  offset="0" style="stop-color:#B1C9E2"/>
+		<stop  offset="0.5" style="stop-color:#4277A5"/>
+		<stop  offset="1" style="stop-color:#002E4F"/>
+	</linearGradient>
+	<line id="Right_Branch" class="st3" x1="122" y1="120" x2="180" y2="120"/>
+	
+		<linearGradient id="Top_Branch_1_" gradientUnits="userSpaceOnUse" x1="78" y1="122" x2="78" y2="184" gradientTransform="matrix(1 0 0 -1 0 202)">
+		<stop  offset="0" style="stop-color:#B1C9E2"/>
+		<stop  offset="0.5" style="stop-color:#4277A5"/>
+		<stop  offset="1" style="stop-color:#002E4F"/>
+	</linearGradient>
+	<line id="Top_Branch" class="st4" x1="78" y1="80" x2="78" y2="18"/>
+	
+		<linearGradient id="Left_Branch_1_" gradientUnits="userSpaceOnUse" x1="78" y1="122" x2="20" y2="122" gradientTransform="matrix(1 0 0 -1 0 202)">
+		<stop  offset="0" style="stop-color:#B1C9E2"/>
+		<stop  offset="0.5" style="stop-color:#4277A5"/>
+		<stop  offset="1" style="stop-color:#002E4F"/>
+	</linearGradient>
+	<line id="Left_Branch" class="st5" x1="78" y1="80" x2="20" y2="80"/>
+</g>
+</svg>

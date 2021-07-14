@@ -1,0 +1,46 @@
+<svg id="zeel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 160 164">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-1 {
+        stroke: #b1c9e2;
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        stroke: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        stroke: url(#linear-gradient-3);
+      }
+
+      .cls-5 {
+        stroke: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="122" y1="82" x2="122" y2="20" gradientTransform="matrix(1, 0, 0, -1, -20, 184)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b1c9e2"/>
+      <stop offset="0.5" stop-color="#4277a5"/>
+      <stop offset="1" stop-color="#002e4f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="122" y1="82" x2="180" y2="82" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="78" y1="122" x2="78" y2="184" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="78" y1="122" x2="20" y2="122" xlink:href="#linear-gradient"/>
+  </defs>
+  <g>
+    <rect id="Box" class="cls-1" x="58" y="62" width="44" height="40"/>
+    <line id="Bottom_Branch" data-name="Bottom Branch" class="cls-2" x1="102" y1="102" x2="102" y2="164"/>
+    <line id="Right_Branch" data-name="Right Branch" class="cls-3" x1="102" y1="102" x2="160" y2="102"/>
+    <line id="Top_Branch" data-name="Top Branch" class="cls-4" x1="58" y1="62" x2="58"/>
+    <line id="Left_Branch" data-name="Left Branch" class="cls-5" x1="58" y1="62" y2="62"/>
+  </g>
+</svg>

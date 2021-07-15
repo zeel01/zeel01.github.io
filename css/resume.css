@@ -18,14 +18,14 @@ h2 {
   grid-template-columns: auto;
   gap: 3em;
 }
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   #resume {
     align-items: start;
     grid-template-rows: auto;
     grid-template-columns: 20em auto;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
   #resume {
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr;

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Syncopate:wght@400;700&display=swap");
 body {
   background-color: #222222;
   display: grid;
@@ -5,32 +6,53 @@ body {
   width: 98vw;
   height: 98vh;
   font-size: 1.5vmin;
-  color: #4277A5;
-  text-shadow: 0 0 0.1em #0007;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  color: white;
 }
 
 a, a:link {
   color: currentColor;
   text-decoration: none;
+  border-bottom: 0.01em dashed currentColor;
+}
+a:hover, a:link:hover {
+  text-shadow: 0 0 0.1em #4277A5;
+  border-bottom: 0.01em solid currentColor;
 }
 
-main {
-  display: grid;
-  width: 88vmin;
-  grid-template-columns: 58fr 44fr 58fr;
-  grid-template-rows: 62fr 40fr 62fr;
-  grid-template-areas: "a b c" "d e f" "g h i";
+h1, h2, h3 {
+  margin: 0;
+  color: #4277A5;
+  text-shadow: 0 0 0.2em #0007;
+  font-family: "Syncopate", sans-serif;
 }
 
-.logo {
-  filter: drop-shadow(0 0 0.4em #0007);
-  grid-column: 1/-1;
-  grid-row: 1/-1;
-  pointer-events: none;
+h1 {
+  font-size: 1.8em;
+  color: #335d81;
 }
 
-.links {
-  grid-area: b;
-  padding-left: 1.5em;
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.9em;
+}
+
+h4, h5, h6 {
+  margin: 0;
+  font-family: "Krona One", sans-serif;
 }

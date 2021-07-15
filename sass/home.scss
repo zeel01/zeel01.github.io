@@ -1,0 +1,66 @@
+@import "variables";
+
+#home {
+	display: grid;
+	width: 88vmin;
+
+	grid-template-columns: 58fr 44fr 58fr;
+	grid-template-rows: 62fr 40fr 62fr;
+
+	grid-template-areas: 
+		"title links1 links1"
+		"d preview f"
+		"links2 links2 i";
+}
+
+#logo {
+	filter: drop-shadow(0 0 .4em #0007);
+	grid-column: 1 / -1;
+	grid-row: 1 / -1;
+	pointer-events: none;
+}
+#title {
+	padding-top: .3em;
+	grid-area: title;
+	justify-self: end;
+	text-align: end;
+	padding-right: 1em;
+	font-size: 2.15em;
+}
+#preview {
+	margin: .5em;
+	grid-area: preview;
+	background-size: cover;
+	background-position: center;
+}
+#links-1 { 
+	grid-area: links1; 
+	padding-left: 1.5em;
+	padding-top: 1.5em;
+}
+#links-2 {
+	grid-area: links2;
+	padding-right: 1.5em;
+	padding-top: 2em;
+	justify-self: end;
+	text-align: end;
+}
+.links {
+	ul {
+		margin: 0;
+		padding: 0;
+		display: grid;
+		gap: .5em;
+	}
+	li {
+		display: grid;
+	}
+	sup {
+		font-size: .5em;
+	}
+
+	h1, h2, h3 {
+		sup { display: none; }
+		&:hover sup { display: inline; }
+	}
+}

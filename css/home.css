@@ -14,11 +14,13 @@
 }
 
 #title {
-  padding-top: 0.3em;
+  padding-top: 0.5em;
   grid-area: title;
   justify-self: end;
   text-align: end;
-  padding-right: 1em;
+  padding-right: 1.2em;
+}
+#title h1 {
   font-size: 2.15em;
 }
 

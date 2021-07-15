@@ -20,12 +20,15 @@
 	pointer-events: none;
 }
 #title {
-	padding-top: .3em;
+	padding-top: .5em;
 	grid-area: title;
 	justify-self: end;
 	text-align: end;
-	padding-right: 1em;
-	font-size: 2.15em;
+	padding-right: 1.2em;
+
+	h1 {
+		font-size: 2.15em;
+	}
 }
 #preview {
 	margin: .5em;

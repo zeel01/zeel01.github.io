@@ -1,0 +1,43 @@
+h1, h2, h3 {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 3.25em;
+}
+
+h2 {
+  border-bottom: 1px solid currentColor;
+}
+
+#resume {
+  display: grid;
+  grid-template-rows: 20em auto;
+  grid-template-columns: auto;
+  gap: 3em;
+}
+@media (min-width: 800px) {
+  #resume {
+    align-items: start;
+    grid-template-rows: auto;
+    grid-template-columns: 20em auto;
+  }
+}
+@media (min-width: 1400px) {
+  #resume {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+#logo {
+  margin: 0;
+}
+#logo a {
+  border: none;
+}
+#logo img {
+  height: 100%;
+  width: 100%;
+}

@@ -9,7 +9,7 @@ h2 {
 	border-bottom: 1px solid currentColor;
 }
 
-#resume {
+.document {
 	margin: 0 1em;
 	display: grid;
 	grid-template-rows: 20em auto;
@@ -23,7 +23,7 @@ h2 {
 	}
 	@media (min-width: 1600px) {
 		grid-template-rows: auto;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 2fr 3fr 2fr;
 	}
 }
 #logo {
@@ -39,3 +39,30 @@ ul {
 	padding-left: 2ch;
 }
 
+article img {
+	max-width: 100%;
+}
+
+aside, article figure {
+	img { width: 100%; }
+	margin: 0;
+	
+	figcaption {
+		text-align: center;
+		font-style: italic;
+	}
+
+	@media (min-width: 1000px) {
+		max-width: 30%;
+		$margin: 1.5ch;
+
+		&.right { 
+			float: right;
+			margin-left: $margin;
+		}
+		&.left  { 
+			float: left;  
+			margin-right: $margin;
+		}
+	}
+}

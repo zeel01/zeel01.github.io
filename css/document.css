@@ -11,7 +11,7 @@ h2 {
   border-bottom: 1px solid currentColor;
 }
 
-#resume {
+.document {
   margin: 0 1em;
   display: grid;
   grid-template-rows: 20em auto;
@@ -19,16 +19,16 @@ h2 {
   gap: 3em;
 }
 @media (min-width: 1000px) {
-  #resume {
+  .document {
     align-items: start;
     grid-template-rows: auto;
     grid-template-columns: 20em auto;
   }
 }
 @media (min-width: 1600px) {
-  #resume {
+  .document {
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 3fr 2fr;
   }
 }
 
@@ -45,4 +45,32 @@ h2 {
 
 ul {
   padding-left: 2ch;
+}
+
+article img {
+  max-width: 100%;
+}
+
+aside, article figure {
+  margin: 0;
+}
+aside img, article figure img {
+  width: 100%;
+}
+aside figcaption, article figure figcaption {
+  text-align: center;
+  font-style: italic;
+}
+@media (min-width: 1000px) {
+  aside, article figure {
+    max-width: 30%;
+  }
+  aside.right, article figure.right {
+    float: right;
+    margin-left: 1.5ch;
+  }
+  aside.left, article figure.left {
+    float: left;
+    margin-right: 1.5ch;
+  }
 }

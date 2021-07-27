@@ -32,7 +32,8 @@ body {
 #preview {
   margin: 0.5em;
   grid-area: preview;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
 }
 

@@ -37,7 +37,8 @@ body {
 #preview {
 	margin: .5em;
 	grid-area: preview;
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-position: center;
 }
 #links-1 { 

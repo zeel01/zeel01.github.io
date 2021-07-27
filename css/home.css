@@ -18,9 +18,10 @@ body {
 }
 
 #title {
-  padding-top: 0.5em;
+  padding-bottom: 2em;
   grid-area: title;
   justify-self: end;
+  align-self: end;
   text-align: end;
   padding-right: 1.2em;
 }
@@ -38,7 +39,8 @@ body {
 #links-1 {
   grid-area: links1;
   padding-left: 1.5em;
-  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  align-self: end;
 }
 
 #links-2 {
